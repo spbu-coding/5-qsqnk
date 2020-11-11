@@ -1,0 +1,2 @@
+Ввод hacker_input следует производить с помощью консольной команды
+python -c "print('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\x3b\x15\x40')" | main.exe
