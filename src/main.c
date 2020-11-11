@@ -2,7 +2,7 @@
 #include <string.h>
 
 void input() {
-    char buffer[50];
+    char buffer[5];
     gets(buffer);
 }
 
