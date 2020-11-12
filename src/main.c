@@ -2,8 +2,8 @@
 #include <string.h>
 
 void input() {
-    char buffer[50];
-    gets(buffer);
+    char buffer[5];
+    scanf("%s", buffer);
 }
 
 void other() {
