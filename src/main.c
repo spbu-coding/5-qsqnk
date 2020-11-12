@@ -2,7 +2,6 @@
 #include <string.h>
 
 void input() {
-	int a = 0;
     char buffer[5];
     scanf("%s", buffer);
 }
