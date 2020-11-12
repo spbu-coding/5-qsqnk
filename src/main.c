@@ -7,11 +7,11 @@ void input() {
 }
 
 void other() {
-    fprintf(stdout, "Return to function other()");
+    fprintf(stdout, "Return to function other");
 }
 
 int main() {
     input();
-    fprintf(stdout, "Return to function main()");
+    fprintf(stdout, "Return to function main");
     return 0;
 }
