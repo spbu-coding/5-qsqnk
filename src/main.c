@@ -2,9 +2,9 @@
 #include <string.h>
 
 void other() {
-    printf("Return to function other");
+    printf("Return to function other\n");
     fflush(stdout);
-
+    exit(0);
 }
 
 void input() {
@@ -14,6 +14,6 @@ void input() {
 
 int main() {
     input();
-    printf("Return to function main");
+    printf("Return to function main\n");
     return 0;
 }
