@@ -3,7 +3,6 @@
 
 void other() {
     printf("Return to function other\n");
-    fflush(stdout);
     exit(0);
 }
 
