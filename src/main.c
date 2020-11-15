@@ -12,6 +12,7 @@ void input() {
 }
 
 int main() {
+    printf("%p\n", &other);
     input();
     printf("Return to function main\n");
     return 0;
