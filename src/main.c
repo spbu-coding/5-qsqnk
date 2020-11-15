@@ -8,7 +8,9 @@ void input() {
 
 void other() {
     printf("Return to function other");
+    exit(0);
 }
+
 
 int main() {
     input();
