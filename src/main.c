@@ -1,17 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
+void other() {
+    printf("Return to function other\n");
+    exit(0);
+}
+
 void input() {
     char buffer[5];
     scanf("%s", buffer);
 }
 
-void other() {
-    fprintf(stdout, "Return to function other");
-}
-
 int main() {
+    printf("%p\n", &other);
     input();
-    fprintf(stdout, "Return to function main");
+    printf("Return to function main\n");
     return 0;
 }
