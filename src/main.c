@@ -4,7 +4,7 @@
 void other() {
     printf("Return to function other");
     fflush(stdout);
-    exit(0);
+    return;
 }
 
 void input() {
